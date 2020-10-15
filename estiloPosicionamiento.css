@@ -22,12 +22,3 @@
 .protagonista{
     display: block;
 }
-
-/* especificidad=10 */
-.container{
-    position: relative;
-}
-
-.overlay{
-    position: absolute;
-}
