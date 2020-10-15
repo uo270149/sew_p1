@@ -142,6 +142,7 @@ span{
 /*especificidad=112*/
 #menu li a:hover{
     background-color: #111;
+    color: white;
 }
 
 /*Imagen del cartel de la película*/
