@@ -7,7 +7,7 @@ body {
 /*especificidad=1*/
 h1 {
     background-color:#FFD700; 
-    color: #fff;
+    color: #505050;
     text-transform: uppercase;
     padding: 100px 25px;
     text-align: center;   
@@ -15,7 +15,7 @@ h1 {
 /*especificidad=1*/
 h2{
     background-color: #DAA520;
-    color:#fff;
+    color: #373737;
     text-transform: capitalize;
     padding: 25px 25px;
     text-align: left;
@@ -24,7 +24,6 @@ h2{
 h3{
     padding: 25px 25px;
     text-align: left;
-
     background-color: #f2f2f2;
 }
 /*especificidad=1*/
