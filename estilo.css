@@ -2,7 +2,7 @@
 body {
     font: 400 15px Tahoma, sans-serif; /*Familia sans-serif*/
     line-height: 1.8;
-    color: #818181;
+    color: #686868;
 }
 /*especificidad=1*/
 h1 {
@@ -74,34 +74,6 @@ td{
 tr:nth-child(even) {
     background-color:#f2f2f2;
 }
-
-/* unvisited link
-/*especificidad=11*/
-/* a:link {
-    color:tan;
-    text-decoration: none;
-} */
-  
-/* visited link */
-/*especificidad=11*/
-/* a:visited {
-    color: #DAA520;
-    text-decoration: none;
-} */
-  
-/* mouse over link */
-/*especificidad=11*/
-/* a:hover {
-    color: peru;
-    text-decoration: underline;
-} */
-  
-/* selected link */
-/*especificidad=11*/
-/* a:active {
-    color: black;
-    text-decoration: underline;
-}  */
 
 /*para que el cursor sobre un enlace se transforme en pointer*/
 /*especificidad=1*/
