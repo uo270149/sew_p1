@@ -1,0 +1,110 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta name="author" content="Sofía Suárez Fernández UO270149"/>
+    <meta name="description" content="Protagonistas de El Padrino, película estadounidense de 1972 dirigida por Francis Ford Coppola."/>
+    <meta name="keywords" content="Protagonistas,Marlon,Brando,Al,Pacino,Robert,Duvall,James,Caan,Richard,Castellano,Diane,Keaton"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8"/>
+    <title>El Padrino</title>
+
+    <link rel="stylesheet" type="text/css" href="estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estiloPosicionamiento.css" />
+</head>
+
+<body>
+    <!-- Datos con los contenidos que aparece en el navegador -->
+    <header>
+        <h1>El Padrino</h1>
+    </header>
+
+    <!--Menú para desplazarse entre varios documentos html-->
+    <nav>
+        <ul id="menu">
+            <li><a href="index.html">Datos</a></li>
+            <li><a class="active" href="protagonistas.html">Protagonistas</a></li>
+            <li><a href="premios.html">Premios</a></li>
+            <li><a href="valoraciones.html">Valoraciones</a></li>
+            <li><a href="multimedia.html">Multimedia</a></li>
+        </ul>
+    </nav>
+
+    <!--Protagonistas de la película-->
+    <section>
+        <h2>Protagonistas</h2>
+        <ul>
+            <li>Marlon Brando</li>
+            <li>Al Pacino</li>
+            <li>Robert Duvall</li>
+            <li>James Caan</li>
+            <li>Richard Castellano</li>
+            <li>Diane Keaton</li>
+        </ul>
+        
+    </section>
+
+    <section>
+        <h2>Imágenes</h2>
+
+        <table>
+            <tbody>
+                <tr>
+                    <!-- una fila de la tabla -->
+                    <td>
+                        <div class="container">
+                            <img class="protagonista" src="multimedia/MarlonBrando.jpg" alt="Marlon Brando"/>
+                            <div class="overlay">Marlon Brando</div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="container">
+                            <img class="protagonista" src="multimedia/AlPacino.jpg" alt="Al Pacino"/>
+                            <div class="overlay">Al Pacino</div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="container">
+                            <img class="protagonista" src="multimedia/RobertDuvall.jpg" alt="Robert Duvall"/>
+                            <div class="overlay">Robert Duvall</div>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <!-- una fila de la tabla -->
+                    <td>
+                        <div class="container">
+                            <img class="protagonista" src="multimedia/JamesCaan.jpg" alt="James Caan"/>
+                            <div class="overlay">James Caan</div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="container">
+                            <img class="protagonista" src="multimedia/RichardCastellano.jpg" alt="Richard Castellano"/>
+                            <div class="overlay">Richard Castellano</div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="container">
+                            <img class="protagonista" src="multimedia/DianeKeaton.jpg" alt="Diane Keaton"/>
+                            <div class="overlay">Diane Keaton</div>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+    </section>
+
+    <footer>
+        <!--Enlaces a los validadores-->
+        <a href="https://validator.w3.org">
+            <img class="validator" src="images/HTML5.png" alt=" HTML5 Válido!" /></a>
+
+        <a href="http://jigsaw.w3.org/css-validator/">
+            <img class="validator" src="images/CSS3.png" alt="CSS Válido!"/></a>
+    </footer>
+</body>
+</html>

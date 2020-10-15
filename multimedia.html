@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<html lang="es">
+    <head>
+        <!-- Datos que describen el documento -->
+        <meta name="author" content="Sofía Suárez Fernández UO270149"/>
+        <meta name="description" content="Trailer de El Padrino, película estadounidense de 1972 dirigida por Francis Ford Coppola."/>
+        <meta name="keywords" content="Trailer,Audios,El,Padrino"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8"/>
+        <title>El Padrino</title>
+
+        <link rel="stylesheet" type="text/css" href="estilo.css" />
+        <link rel="stylesheet" type="text/css" href="estiloPosicionamiento.css" />
+    </head>
+
+    <body>
+        <!-- Datos con los contenidos que aparece en el navegador -->
+        <header>
+            <h1>El Padrino</h1>
+        </header>
+
+        <!--Menú para desplazarse entre varios documentos html-->
+        <nav>
+            <ul id="menu">
+                <li><a href="index.html">Datos</a></li>
+                <li><a href="protagonistas.html">Protagonistas</a></li>
+                <li><a href="premios.html">Premios</a></li>
+                <li><a href="valoraciones.html">Valoraciones</a></li>
+                <li><a class="active" href="multimedia.html">Multimedia</a></li>
+            </ul>
+        </nav>
+
+        <section>
+            <!--Trailer de la pelicula-->
+            <h2>Tráiler</h2>
+
+            <video width="400" controls>
+                <source src="multimedia/trailer.mp4" type="video/mp4">
+                    Tu navegador no soporta este elemento de vídeo.
+            </video>
+        </section>
+
+        <section>
+            <!--Audios de la película-->
+            <h2>Audios</h2>
+
+            <p> <q>[...] Si hubieras mantenido mi amistad, los que maltrataron a tu hija lo habrían pagado con creces [...]</q></p>
+            <audio controls>
+                <source src="multimedia/frase1.mp3" type="audio/mpeg">
+                    Tu navegador no soporta este elemento de audio.
+            </audio>
+
+            <br> <!--salto de linea-->
+
+            <p><q>[...] Tengo ciertas debilidades por mis hijos, como puede ver [...]</q></p>
+            <audio controls>
+                <source src="multimedia/frase2.mp3" type="audio/mpeg">
+                    Tu navegador no soporta este elemento de audio.
+            </audio>
+
+            <br> <!--salto de linea-->
+
+            <p><q>[...] Creo en América. América hizo mi fortuna [...]</q></p>
+            <audio controls>
+                <source src="multimedia/frase3.mp3" type="audio/mpeg">
+                    Tu navegador no soporta este elemento de audio.
+            </audio>
+
+            <br> <!--salto de linea-->
+            <br> <!--salto de linea-->
+        </section>
+
+        <footer>
+            <!--Enlaces a los validadores-->
+            <a href="https://validator.w3.org">
+                <img class="validator" src="images/HTML5.png" alt=" HTML5 Válido!" /></a>
+    
+            <a href="http://jigsaw.w3.org/css-validator/">
+                <img class="validator" src="images/CSS3.png" alt="CSS Válido!"/></a>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,221 @@
+/*especificidad=1*/
+body {
+    font: 400 15px Tahoma, sans-serif; /*Familia sans-serif*/
+    line-height: 1.8;
+    color: #818181;
+}
+/*especificidad=1*/
+h1 {
+    background-color:#FFD700; 
+    color: #fff;
+    text-transform: uppercase;
+    padding: 100px 25px;
+    text-align: center;   
+}
+/*especificidad=1*/
+h2{
+    background-color: #DAA520;
+    color:#fff;
+    text-transform: capitalize;
+    padding: 25px 25px;
+    text-align: left;
+}
+/*especificidad=1*/
+h3{
+    padding: 25px 25px;
+    text-align: left;
+
+    background-color: #f2f2f2;
+}
+/*especificidad=1*/
+p{
+    text-align: justify;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+    margin-right: 75px;
+}
+/*especificidad=1*/
+ul{
+    border-left: 5px solid tan;
+    background-color: #f2f2f2;
+    list-style-type: none;
+    padding: 10px 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+    margin-right: 75px;
+}
+/*especificidad=1*/
+table{
+    border-collapse: collapse;
+    width:95%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+    margin-right: 75px;
+}
+/*especificidad=1*/
+th{
+    height: 50px;
+    text-align: left;
+    vertical-align: center;
+    padding:15px;
+    background-color:tan;
+    color:#fff;
+}
+
+/*especificidad=1*/
+td{
+    text-align: left;
+    vertical-align: center;
+    padding:15px;
+}
+/*especificidad=12*/
+tr:nth-child(even) {
+    background-color:#f2f2f2;
+}
+
+/* unvisited link */
+/*especificidad=11*/
+a:link {
+    color:tan;
+    text-decoration: none;
+}
+  
+/* visited link */
+/*especificidad=11*/
+a:visited {
+    color: #DAA520;
+    text-decoration: none;
+}
+  
+/* mouse over link */
+/*especificidad=11*/
+a:hover {
+    color: peru;
+    text-decoration: underline;
+}
+  
+/* selected link */
+/*especificidad=11*/
+a:active {
+    color: black;
+    text-decoration: underline;
+}
+/*para que el cursor sobre un enlace se transforme en pointer*/
+/*especificidad=1*/
+span{
+    cursor: pointer;
+}
+
+/*especificidad=100*/
+#menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f2f2f2;
+    border-left: none;
+    top: 0;
+}
+
+/*especificidad=102*/
+#menu li a{
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/*especificidad=122*/
+#menu li a:hover:not(.active){
+    background-color: #ddd;
+}
+
+/*especificidad=112*/
+#menu li a.active{
+    color:white;
+    background-color: #DAA520;
+}
+
+/*especificidad=112*/
+#menu li a:hover{
+    background-color: #111;
+}
+
+/*Imagen del cartel de la película*/
+/*especificidad=10*/
+.elPadrino{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+    margin-right: 75px;
+}
+
+/*Imagenes de los protagonistas*/
+/*especificidad=10*/
+.protagonista{
+    width: 100%;
+    height: auto;
+}
+
+/* especificidad=0 */
+*{
+    box-sizing: border-box;
+}
+
+/* especificidad=10 */
+.container{
+    width: 50%;
+    max-width: 300px;
+}
+
+/* especificidad=10 */
+.overlay{
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+/* especificidad=30 */
+.container:hover .overlay{
+    opacity: 1;
+}
+
+/*Imagenes de los validadores*/
+/*especificidad=10*/
+.validator{
+    height:63px;
+    width:64px;
+}
+
+/*especificidad=1*/
+video{
+    max-width: 100%;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+    margin-right: 75px;
+}
+
+/*especificidad=1*/
+audio{
+    margin-left: 40px;
+    margin-right: 75px;
+}
+
+/*especificidad=1*/
+blockquote{
+    margin-left: 40px;
+    margin-right: 75px;
+}

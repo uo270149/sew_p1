@@ -1,0 +1,33 @@
+/* especificidad=101 */
+#menu li{
+    float: left;
+}
+
+/* especificidad=10 */
+.elPadrino{
+    float: right;
+}
+
+/* especificidad=102 */
+#menu li a{
+    display: block;
+}
+
+/* especificidad=100 */
+#menu{
+    position: sticky;
+}
+
+/* especificidad=10 */
+.protagonista{
+    display: block;
+}
+
+/* especificidad=10 */
+.container{
+    position: relative;
+}
+
+.overlay{
+    position: absolute;
+}
