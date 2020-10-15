@@ -156,8 +156,11 @@ span{
 /*Imagenes de los protagonistas*/
 /*especificidad=10*/
 .protagonista{
-    width: 100%;
+    width: 50%;
     height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 /*Imagenes de los validadores*/
