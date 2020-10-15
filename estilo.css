@@ -102,6 +102,7 @@ a:active {
     color: black;
     text-decoration: underline;
 }
+
 /*para que el cursor sobre un enlace se transforme en pointer*/
 /*especificidad=1*/
 span{
@@ -134,7 +135,7 @@ span{
 
 /*especificidad=112*/
 #menu li a.active{
-    color:white;
+    color:#373737;
     background-color: #DAA520;
 }
 
